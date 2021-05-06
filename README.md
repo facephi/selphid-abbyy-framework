@@ -1,0 +1,1 @@
+# selphid-abbyy-framework
