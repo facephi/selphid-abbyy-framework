@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FPhiSelphIDWidgetiOSAbbyy'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1-beta'
   s.summary          = 'Component for OCR and liveness test'
   s.description      = <<-DESC
   Safe digital onboarding solution with the best real time OCR in the market with facial liveness test.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   ]
   s.ios.vendored_frameworks = 'FPhiSelphIDWidgetiOS.xcframework'
 
-  s.dependency 'FPAbbyyRtrSDK'
+  s.dependency 'FPhiAbbyyRtrSDK'
   s.dependency 'zipzap'
 
   s.libraries = 'c++', 'z'
